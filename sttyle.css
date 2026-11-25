@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-bg: #f0fdf4;
+    --color-text: #14532d;
+    --color-accent: #15803d;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+.match {
+    max-width: 480px;
+    margin: 48px auto;
+    padding: 24px 16px;
+    border: 2px solid var(--color-accent);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.match__title {
+    margin-bottom: 8px;
+}
+
+.match__info {
+    margin-bottom: 16px;
+}
+
+.match__hint {
+    font-style: italic;
+}
